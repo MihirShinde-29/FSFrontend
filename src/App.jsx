@@ -94,7 +94,7 @@ function App() {
         className="bg-gray-100 w-1/2 p-4 rounded absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-100"
       >
         <div className="">
-          <h1 className="text-4xl font-semibold">Update Item</h1>
+          <h1 className="text-4xl font-semibold">Add Item</h1>
           <div className="grid grid-cols-2 gap-4 mt-4">
             <div className="flex flex-col gap-2">
               <h1 className="text-xl text-gray-600">Name</h1>
