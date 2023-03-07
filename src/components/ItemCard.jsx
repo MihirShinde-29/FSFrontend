@@ -66,7 +66,7 @@ const ItemCard = ({ item }) => {
       <h1 className="text-blue-500 text-sm">{item.name}</h1>
       <div className="flex items-center gap-2">
         <h1 className="font-semibold text-lg">
-          R {item.price - (item.price * item.discount) / 100}
+          R {parseFloat(item.price - (item.price * item.discount) / 100).toFixed(2)}
         </h1>
         <h1 className="text-gray-400 text-sm line-through">R {item.price}</h1>
         <BsFillInfoCircleFill className="text-gray-400 text-xs" />
